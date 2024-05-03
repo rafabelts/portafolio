@@ -7,6 +7,12 @@ const config: Config = {
     ],
     theme: {
         extend: {
+            colors: {
+                textColor: "#E9E9E9",
+                greenPerry: "#41B4D0",
+                greenPerryLight: "#C6EFED",
+                container: "#202032"
+            },
             backgroundImage: {
                 "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
                 "gradient-conic":
