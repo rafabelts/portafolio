@@ -13,12 +13,12 @@ class SchoolAndTitle extends React.Component<SchoolInfo> {
     render() {
         const { title, school, graduation, info } = this.props;
         return (
-            <li id="schoolTitle" className="bg-container rounded-lg p-6 hover:!opacity-100 group-hover/list:opacity-15 hover:bg-[#2A2A41]">
+            <li id="schoolTitle" className="bg-container rounded-lg p-3 lg:p-6 hover:!opacity-100 group-hover/list:opacity-15 hover:bg-[#2A2A41]">
                 <div className="flex flex-col mb-4 text-greenPerryLight">
-                    <p className="text-2xl font-bold"> {title} </p>
-                    <p className="text-base"> {school} | {graduation}</p>
+                    <p className="text-lg lg:text-2xl font-bold"> {title} </p>
+                    <p className="text-[10px] lg:text-base"> {school} | {graduation}</p>
                 </div>
-                <p className="text-lg text-textColor text-justify"> {info} </p>
+                <p className="text-sm lg:text-lg text-textColor text-justify"> {info} </p>
             </li>
         );
     }
@@ -29,8 +29,8 @@ class SchoolAndTitle extends React.Component<SchoolInfo> {
 class Education extends React.Component {
     render() {
         return (
-            <div id="education" className="flex flex-col gap-2 mb-10">
-                <h2 className="text-[40px] font-bold text-textColor mb-2"> My education (so far...) </h2>
+            <div id="education" className="flex flex-col gap-2 mb-5 lg:mb-10">
+                <h2 className="text-[25px] lg:text-[40px] font-bold text-textColor mb-2"> My education (so far...) </h2>
                 <ul id="schools" className="flex flex-col group/list gap-6">
                     <SchoolAndTitle
                         title="Software Engineer"

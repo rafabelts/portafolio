@@ -4,7 +4,7 @@ import Projects from "@/components/projects";
 
 export default function Home() {
     return (
-        <main className="flex w-1/2 ml-[50%] flex-col min-h-screen gap-10 py-24">
+        <main className="flex flex-col gap-10 lg:py-24 lg:mt-0 lg:w-1/2 lg:ml-[50%]">
             <About />
             <Education />
             <Projects />
