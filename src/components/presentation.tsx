@@ -19,7 +19,7 @@ class SocialMediaButton extends React.Component<{ icon: string; link: string }> 
 class Presentation extends React.Component {
     render() {
         return (
-            <header id="presentation" className="flex flex-col lg:fixed lg:w-1/2 text-left py-24 top-0 gap-16 lg:justify-between">
+            <header id="presentation" className="flex flex-col py-24 gap-14 lg:fixed lg:w-1/2 lg:min-h-screen lg:justify-between">
                 <div id="about">
                     <h1 className="text-5xl lg:text-7xl mb-5 text-left lg:text-justify">Hi, <span className="text-greenPerry font-bold">Rafa</span> here!</h1>
                     <h2 className="text-lg lg:text-2xl">Full Stack Dev</h2>

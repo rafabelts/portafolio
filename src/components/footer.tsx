@@ -5,7 +5,7 @@ class Footer extends React.Component {
     render() {
         return (
             <footer id="credits" className="relative w-full text-center text-[#3C3C56] mb-2">
-                <p> Built and designed by Rafael Beltrán </p>
+                <p className="text-sm"> Built and designed by Rafael Beltrán </p>
             </footer>
         );
     }
